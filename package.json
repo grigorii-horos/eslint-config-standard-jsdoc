@@ -2,11 +2,7 @@
   "name": "eslint-config-standard-jsdoc",
   "description": "JavaScript Standard Style JSDoc support - ESLint Shareable Config",
   "version": "0.1.0",
-  "author": {
-    "name": "Simon Kjellberg",
-    "email": "simon.kjellberg@gmail.com",
-    "url": "https://simonkjellberg.com/"
-  },
+  "author": "Simon Kjellberg <simon.kjellberg@gmail.com> (https://simonkjellberg.com/)",
   "bugs": {
     "url": "https://github.com/simonkberg/eslint-config-standard-jsdoc/issues"
   },
