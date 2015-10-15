@@ -4,7 +4,7 @@
 [![downloads][downloads-image]][downloads-url]
 
 [travis-image]: https://img.shields.io/travis/simonkberg/eslint-config-standard-jsdoc.svg?style=flat
-[travis-url]: https://travis-ci.org/feross/eslint-config-standard-jsdoc
+[travis-url]: https://travis-ci.org/simonkberg/eslint-config-standard-jsdoc
 [npm-image]: https://img.shields.io/npm/v/eslint-config-standard-jsdoc.svg?style=flat
 [npm-url]: https://npmjs.org/package/eslint-config-standard-jsdoc
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-jsdoc.svg?style=flat
@@ -82,4 +82,4 @@ For the full listing of rules, editor plugins, FAQs, and more, visit the main
 
 ## License
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [Simon Kjellberg](https://simonkjellberg.com).
