@@ -1,0 +1,56 @@
+{
+  "name": "eslint-config-standard-jsdoc",
+  "description": "JavaScript Standard Style JSDoc support - ESLint Shareable Config",
+  "version": "0.1.0",
+  "author": {
+    "name": "Simon Kjellberg",
+    "email": "simon.kjellberg@gmail.com",
+    "url": "https://simonkjellberg.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/simonkberg/eslint-config-standard-jsdoc/issues"
+  },
+  "peerDependencies": {
+    "eslint-plugin-jsdoc": ">=1.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/simonkberg/eslint-config-standard-jsdoc",
+  "keywords": [
+    "standard",
+    "style checker",
+    "code style",
+    "code checker",
+    "code linter",
+    "style linter",
+    "simple",
+    "policy",
+    "style",
+    "code",
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "jshint",
+    "jscs",
+    "hint",
+    "enforce",
+    "check",
+    "verify",
+    "quality",
+    "checker",
+    "code standards",
+    "JavaScript Standard Style",
+    "standard style",
+    "jsdoc"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simonkberg/eslint-config-standard-jsdoc.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}
