@@ -7,7 +7,7 @@
     "jsdoc/check-param-names": 1,
     "jsdoc/check-syntax": 1,
     "jsdoc/check-tag-names": 1,
-    "jsdoc/check-types": 0,
+    "jsdoc/check-types": 1,
     "jsdoc/implements-on-classes": 1,
     "jsdoc/match-description": 1,
     "jsdoc/newline-after-description": 1,
@@ -27,41 +27,6 @@
     "jsdoc/require-returns-description": 1,
     "jsdoc/require-returns-type": 1,
     "jsdoc/valid-types": 1,
-    "require-jsdoc": [
-      1,
-      {
-        "require": {
-          "FunctionDeclaration": true,
-          "MethodDefinition": true,
-          "ClassDeclaration": true,
-          "ArrowFunctionExpression": true,
-          "FunctionExpression": true
-        }
-      }
-    ],
-    "valid-jsdoc": [
-      1,
-      {
-        "prefer": {
-          "arg": "param",
-          "argument": "param",
-          "constructor": "class",
-          "return": "returns",
-          "virtual": "abstract"
-        },
-        "preferType": {
-          "Boolean": "boolean",
-          "Number": "number",
-          "String": "string",
-          "function": "Function",
-          "object": "Object",
-          "array": "Array",
-          "date": "Date",
-          "regexp": "RegExp",
-          "symbol": "Symbol"
-        }
-      }
-    ]
   },
   "settings": {
     "jsdoc": {
