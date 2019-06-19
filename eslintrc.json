@@ -67,7 +67,6 @@
     "jsdoc": {
       "ignorePrivate": true,
       "exemptEmptyFunctions": true,
-      "captionRequired": true,
       "avoidExampleOnConstructors":false
     }
   }
