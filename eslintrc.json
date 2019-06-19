@@ -7,7 +7,7 @@
     "jsdoc/check-param-names": 1,
     "jsdoc/check-syntax": 1,
     "jsdoc/check-tag-names": 1,
-    "jsdoc/check-types": 1,
+    "jsdoc/check-types": 0,
     "jsdoc/implements-on-classes": 1,
     "jsdoc/match-description": 1,
     "jsdoc/newline-after-description": 1,
