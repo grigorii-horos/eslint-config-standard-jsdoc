@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-standard-jsdoc",
   "description": "JavaScript Standard Style JSDoc support - ESLint Shareable Config",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "author": "Simon Kjellberg <simon.kjellberg@gmail.com> (https://simonkjellberg.com/)",
   "contributors": [
     {

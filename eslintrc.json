@@ -34,10 +34,33 @@
           "FunctionDeclaration": true,
           "MethodDefinition": true,
           "ClassDeclaration": true,
-          "ArrowFunctionExpression": true
+          "ArrowFunctionExpression": true,
+          "FunctionExpression": true
         }
       }
     ],
-    "valid-jsdoc": 1
+    "valid-jsdoc": [
+      1,
+      {
+        "prefer": {
+          "arg": "param",
+          "argument": "param",
+          "constructor": "class",
+          "return": "returns",
+          "virtual": "abstract"
+        },
+        "preferType": {
+          "Boolean": "boolean",
+          "Number": "number",
+          "String": "string",
+          "function": "Function",
+          "object": "Object",
+          "array": "Array",
+          "date": "Date",
+          "regexp": "RegExp",
+          "symbol": "Symbol"
+        }
+      }
+    ]
   }
 }
