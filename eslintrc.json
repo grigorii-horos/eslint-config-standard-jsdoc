@@ -13,7 +13,7 @@
     "jsdoc/newline-after-description": 1,
     "jsdoc/no-types": 0,
     "jsdoc/no-undefined-types": 0,
-    "jsdoc/require-description": 1,
+    "jsdoc/require-description": 0,
     "jsdoc/require-description-complete-sentence": 1,
     "jsdoc/require-example": 1,
     "jsdoc/require-hyphen-before-param-description": 1,
