@@ -1,24 +1,21 @@
 # Standard JSDoc - ESLint Shareable Config
-[![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 
-[travis-image]: https://img.shields.io/travis/simonkberg/eslint-config-standard-jsdoc.svg?style=flat
-[travis-url]: https://travis-ci.org/simonkberg/eslint-config-standard-jsdoc
 [npm-image]: https://img.shields.io/npm/v/eslint-config-standard-jsdoc.svg?style=flat
 [npm-url]: https://npmjs.org/package/eslint-config-standard-jsdoc
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-jsdoc.svg?style=flat
 [downloads-url]: https://npmjs.org/package/eslint-config-standard-jsdoc
 
-#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for JSDoc support in [JavaScript Standard Style](https://github.com/feross/standard)
+#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for JSDoc support 
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ## Install
 
 ```bash
 npm install eslint-config-standard-jsdoc
 ```
+### Notice: This plugin doesn't depend on [standard style](https://github.com/standard/standard) and can be used with any other style guide, like as [Airbnb Style](https://github.com/airbnb/javascript)
 
 ## Usage
 
@@ -33,14 +30,21 @@ provided in `eslint-config-standard`.
 Here's how to install everything you need:
 
 ```bash
-npm install eslint-config-standard eslint-config-standard-jsdoc eslint-plugin-jsdoc
+npm install eslint-config-standard-jsdoc eslint-plugin-jsdoc
 ```
 
-Then, add this to your .eslintrc file:
+Then, add this to your .eslintrc file, if you use vanila js or TypeScript with JSDOC :
 
 ```
 {
-  "extends": ["standard", "standard-jsdoc"]
+  "extends": [ "standard-jsdoc"]
+}
+```
+Or, if you use pure TypeScript
+
+```
+{
+  "extends": [ "standard-jsdoc/ts"]
 }
 ```
 
