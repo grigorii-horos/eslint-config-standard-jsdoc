@@ -19,10 +19,10 @@
       "warn"
     ],
     "require-param-type": [
-      "error"
+      "warn"
     ],
     "require-returns-type": [
-      "error"
+      "warn"
     ]
   }
 }
