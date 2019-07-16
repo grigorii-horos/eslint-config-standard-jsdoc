@@ -17,6 +17,12 @@
     ],
     "jsdoc/require-hyphen-before-param-description": [
       "warn"
-    ]    
+    ],
+    "require-param-type": [
+      "error"
+    ],
+    "require-returns-type": [
+      "error"
+    ]
   }
 }

@@ -6,7 +6,12 @@ eslintConfig.rules = {
   'jsdoc/no-types': [
     'error',
   ],
-
+  'require-param-type': [
+    'off',
+  ],
+  'require-returns-type': [
+    'off',
+  ],
 };
 
 module.exports = eslintConfig;
