@@ -6,10 +6,10 @@ eslintConfig.rules = {
   'jsdoc/no-types': [
     'error',
   ],
-  'require-param-type': [
+  'jsdoc/require-param-type': [
     'off',
   ],
-  'require-returns-type': [
+  'jsdoc/require-returns-type': [
     'off',
   ],
 };
