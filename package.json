@@ -60,6 +60,6 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "eslint-plugin-json": "^1.4.0"
+    "eslint-plugin-json": "^2.0.1"
   }
 }
